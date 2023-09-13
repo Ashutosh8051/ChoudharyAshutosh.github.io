@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ============= BackGround color============== */
+    /* --primary-color:#004caa; */
+    --primary-color:#0155bc;
+    /* --secondary-color:#fc5185; */
+    --secondary-color:rgb(252, 207, 9);;
+    --bg-light-blue:#3672bc;
+    --bg-dark:#40403f;
+    --bg-white:#fff;
+
+
+    /* ============ Text Style =================== */
+    --primary-font:'Roboto Slab', serif;
+    --secondary-font:'Josefin Sans', sans-serif;
+    --primary-text:#004caa;
+    --secondary-text:#fc5185;
+    --text-white:#fff;
+    --text-black:#222;
+    --text-gray:#666;
+    --text-light:#ddd;
+}
+::-webkit-scrollbar{
+    width: .375rem;
+    
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(0, 69, 39);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--secondary-color);
+    height: 20vh;
+}
+.nav-link{
+    color: var(--primary);
+    font-size: 19px;
+    transition: all 0.6s;
+}
+
+body{
+    background-color: var(--bg-white);
+    font-family: var(--primary-font);
+}
+html{
+    scroll-behavior: smooth;
+}
+.wrapper
+{
+    padding:6.25rem 0;
+}
+.main-btn{
+    display: inline-block;
+    border: .0625rem solid var(--bg-white);
+    color: var(--text-white);
+    text-align: center;
+    padding: .75rem 1.375rem;
+    font-size: 1rem;
+    background: rgb(2, 41, 18);
+    text-transform: capitalize;
+    border-radius:.1875rem;
+    transition: all 0.3s ease-in-out;
+}
+a{
+    text-decoration: none;
+}
+.main-btn:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--bg-white);
+}
+.fill-btn{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--text-white);
+}
+.fill-btn:hover{
+    background-color: var(--bg-white);
+    border-color: var(--bg-white);
+    color: var(--text-black);
+}
+
+/* ========== Navbar=============== */
+.header_wrapper .navbar{
+    
+    padding: .9375rem 0;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+  
+}
+.header_wrapper .navbar-toggler,
+    .header_wrapper .navbar-toggler:focus{
+    border: 0;
+    color: rgb(0, 69, 39);
+    line-height: 2;
+    line-height: 2;
+    box-shadow: none;
+}
+.header_wrapper .nav-item{
+    margin: 0 .625rem;
+
+}
+.header_wrapper .nav-item .nav-link{
+    font-size: 1.001rem;
+    font-weight: 400;
+    color:var(--primary-text);
+    display: inline-block;
+    font-family: var(--secondary-font);
+}
+
+.header_wrapper .nav-item .nav-link:hover,
+.header_wrapper .nav-item .nav-link:focus
+.header_wrapper .nav-item .nav-link.active{
+   
+    color: rgb(0, 69, 39);
+   
+}   
+.navbar.header-scrolled{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--bg-white);
+    box-shadow: .5084rem 1.1419rem 2.5rem 0 rgb(0 0 0/8%);
+    transition: 0.3s ease-in-out;
+} 
+
+.navbar-brand h3{
+    font-size: 34px;
+    font-family: var(--primary-font);
+    font-style: italic;
+    border-bottom: 3px solid rgb(0, 69, 39);
+    border-radius: 50%;
+}
+.header_wrapper h3 span{
+    color: rgb(0, 69, 39);
+    font-weight: 900;
+    font-style: italic;
+    border-bottom: none;
+
+}
+
+/* ============= Home section ================ */
+
+
+.home_wrapper{
+   background-image: url(../Images//Simple\ Shiny\ \(1\).svg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+.home_wrapper h1{
+    font-family: var(--primary-font);
+    font-size: 6.74rem;
+    color: #ffffff;
+    padding-top: 1.4rem;
+}
+.home_wrapper h1 span,
+.home_wrapper h2 span,
+.home_wrapper h3 span
+{
+    color: #00d5ff;
+}
+.home_wrapper h2{
+    font-size: 3.2rem;
+    color: #ffffff;
+    font-family: var(--primary-font);
+    padding-top: 1.4rem;
+}
+.home_wrapper h3{
+    font-size: 2.4rem;
+    font-family: var(--primary-font);
+    padding-top: 1.8rem;
+    color: #ffffff;
+}
+.home_wrapper img{
+    margin-top: -1.2rem;
+}
+.pattern{
+    background-image: url(../Images/graph\ 3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.about_wrapper{
+   background-color: #fff;
+}
+.about_wrapper h3{
+   text-align: center;
+   color: rgb(0, 69, 39);
+   font-size: 2.18rem;
+    font-family: var(--primary-font);
+   font-weight: 500;
+  
+ }
+.back{
+    background-image: url("../Images/graph.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about_wrapper .box p{
+    font-family: var(--primary-font);
+    font-size: 1.18rem;
+    color: rgb(0, 0, 0);
+    margin-top: 3.68rem;
+    font-weight: 400;
+}
+.about_wrapper .box span{
+    color: rgb(0, 69, 39);
+    font-size: 1.28rem;
+    font-style: italic;
+    font-weight: 600;
+}
+.about_wrapper .box p #hii{
+    color: rgb(0, 69, 39);
+    font-size: 2.98rem;
+    padding-top: 2rem;
+    font-weight: 600;
+}
+.about_wrapper .box p #name{
+    color: rgb(0, 69, 39);
+    font-size: 1.28rem;
+    font-style: italic;
+    font-weight: 600;
+   
+    
+}
+
+/* =============== Skills ================ */
+.skills_wrapper{
+    
+    background-image: url("../Images/Shiny\ Overlay.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.skills_wrapper h3{
+    text-align: center;
+    color: var(--text-white);
+    font-size: 2.18rem;
+     font-family: var(--primary-font);
+    font-weight: 500;
+   
+  }
+  .skills_wrapper h5{
+    text-align: left;
+    color: var(--text-white);
+    font-size: 1.6rem;
+     font-family: var(--primary-font);
+    font-weight: 600;
+  }
+.skills_wrapper .card{
+    height: 10rem;
+    border:5px groove rgb(255, 255, 255);
+    border-bottom: none;
+    border-bottom: 7px solid rgb(182, 32, 1);
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+   
+  }
+
+  .skills_wrapper .card .card-img-top{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .skills_wrapper .card:hover{
+    transform: translateY(-8px);
+    cursor:pointer;
+  }
+  /* =============== Project Wrapper ============= */
+  .project_wrapper{
+    background-image: url(../Images/project.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+.project_wrapper h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.18rem;
+     font-family: var(--primary-font);
+    font-weight: 500;
+}
+.project_wrapper .card{
+    height: auto;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+.project_wrapper .card:hover{
+    transform: translateY(-10px);
+    background-color: #f6eded;
+} 
+
+
+.project_wrapper .scard{
+    height: auto;
+}
+
+.project_wrapper p{
+    font-family: var(--primary-font);
+  
+}
+.project_wrapper h5{
+    text-align: center;
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 1.298rem;
+}
+
+  /* =============== Service Wrapper ====================== */
+.service_wrapper h3{
+    text-align: center;
+    color: rgb(0, 69, 39);
+    font-size: 2.18rem;
+     font-family: var(--primary-font);
+    font-weight: 500;
+}
+.service_wrapper .card{
+    border: 5px solid rgb(0, 69, 39);
+    transition: all 0.4s ease-in-out;
+    background-color: #f6eded;
+    cursor: pointer;
+    width: 18rem;
+    
+}
+.service_wrapper .card i{
+    padding-top: 0.98rem;
+    font-size: 6.6rem;
+    text-align: center;
+    color: rgb(0, 69, 39);
+   
+}
+.service_wrapper .card:hover{
+    transform: translateY(-12px);
+}
+
+/* ============= Experinece section ===================== */
+.experience_wrapper h3{
+    text-align: center;
+    color: rgb(0, 69, 39);
+    font-size: 2.18rem;
+     font-family: var(--primary-font);
+    font-weight: 500;
+   
+  }
+  .experience_wrapper .card{
+    box-shadow: rgba(0, 70, 23, 0.19) 0px 10px 20px, rgba(0, 28, 15, 0.23) 0px 6px 6px;
+   width: 20rem;
+    margin-left: 1.9rem;
+    transition: all 0.4s ease-in-out;
+  }
+  .experience_wrapper .card:hover{
+   transform: translateY(-10px);
+   cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ================ Contact Me ===================== */
+  .contact_wrapper{
+    background-image: url(../Images/Shiny\ Overlay.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.contact_wrapper h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.18rem;
+     font-family: var(--primary-font);
+    font-weight: 500;
+}
+
+
+/* ============== Education Section =================== */
+.education_wrapper{
+    background-color: rgb(0, 69, 39);
+}
+.education_wrapper h3{
+    text-align: center;
+   color: rgb(255, 255, 255);
+    font-size: 2.18rem;
+     font-family: var(--primary-font);
+    font-weight: 500;
+} 
+.carousel-wrapper {
+    max-width: 70%;
+
+    margin: 0 auto; 
+  }
+  .carousel-item img{
+    filter: brightness(60%);
+  }
+  .carousel-wrapper .bi{
+    font-size: 2.2rem;
+    color: #fff;
+
+  }
+
+.carousel-caption h2{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    padding-top: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* =========================Footer ====================== */
+.footer_wrapper{
+    background-color: rgb(0, 69, 39);
+    padding-bottom: 0;
+}
+.footer_wrapper h5{
+    color: var(--text-white);
+}
+.footer_wrapper .contact-info ul a{
+    padding: 0;
+
+}
+.footer_wrapper ul li{
+    margin-bottom: .5rem;
+    list-style: none;
+    font-size: .875rem;
+
+}
+.footer_wrapper ul li a{
+    color: var(--text-white);
+
+}
+.footer_wrapper ul li a,
+.footer_wrapper p{
+    color: var(--text-white);
+    font-size: .875rem;
+    padding-left: 1.5rem;
+    position: relative;
+    -webkit-transition: all 0.3s ease-out 0s;;
+    transition: all 0.3s ease-out 0s;
+
+}
+.link-widget li a::before{
+    content:'\f105';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    position: absolute;
+    left: 0.3rem;
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+ .footer_wrapper .link-widget li a:hover{
+    margin-left: .625rem;
+    color: var(--secondary-color);
+}
+ 
+
+.footer_wrapper .social-network a{
+    width: 2.1875rem;
+    height: 2.1875rem;
+    margin: .5rem;
+    line-height: 2rem;
+    font-size: .875rem;
+    display: inline-block;
+    border: .125rem solid var(--bg-light-blue);
+    color: var(--text-light);
+    text-align: center;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+    transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+    
+}
+.footer_wrapper .social-network a .fa-brands{
+    text-align: center;
+    margin-left: -1.482rem;
+}
+
+.footer_wrapper .social-network a:hover{
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--text-white);
+    transform: translateY(-0.1875rem);
+}
+.footer_wrapper ::placeholder{
+    color: var(--text-light);
+}
+.footer_wrapper .form-control{
+    color: var(--text-light);
+}
+.footer_wrapper .form-control:focus{
+    outline:none;
+    box-shadow: none;
+    border-color: var(--bg-white);
+}
+.footer_wrapper .copyright-section{
+    background-color: rgb(255, 255, 255);
+    padding: 1.6rem 0 0rem;
+    text-align: center;
+}
+.footer_wrapper .copyright-section a{
+    color: rgb(0, 69, 39);
+    font-weight: 800;
+    font-family: var(--primary-font);
+
+}
+
+.copyright-section p{
+    color: rgb(0, 69, 39);
+    font-size: 1.089rem;
+    font-weight: 400;
+    font-family: var(--primary-font);
+}
+.copyright-section p a{
+    text-decoration: none;
+}
+.list-unstyled a{
+    text-decoration: none;
+}
+.link-widget a{
+    text-decoration: none;
+}
+/* ================= Education section======================================== */
+
+.education_wrapper h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+     font-size: 1.918rem;
+      font-family: var(--primary-font);
+     font-weight: 500;
+}
+.education_wrapper h4{
+    font-family: var(--primary-font);
+    font-weight: 700;
+}
+.education_wrapper h3{
+    font-family: var(--primary-font);
+    font-weight: 600;
+}
+.education_wrapper p{
+    font-family: var(--primary-font);
+    text-align: left;
+    color:rgb(0, 69, 39);
+}
+
+
+
+/* ============ Preloader ================ */
+#preloader{
+    background-image: url(../Images/gif-unscreen.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 69, 39);
+    position: fixed;
+    z-index: 100;
+}
+@media(max-width:430px) {
+    #preloader{
+        background-size: 80%;
+    }
+}

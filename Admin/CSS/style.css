@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root{
+    --primary-font:'Roboto Slab', serif;
+    --secondary-font:'Josefin Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(0, 69, 39);
+    color: white;
+    font-family: var(--primary-font);
+}
+.image{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_content h4{
+    margin-left: 1rem;
+    padding-top: 7px;
+}
+.left_content h4 span{
+    color: yellow;
+    font-style: italic;
+    font-weight: 800;
+}
+.right_content a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+}
+.right_content i{
+    color: yellow;
+}
+.right_content h4{
+    margin-left: 0.7888rem;
+    padding-top: 7px;
+} 
+
+@media(max-width:511px){
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .left_content h4{
+        margin-left: 0.7rem;
+    }
+    .right_content {
+        display: inline-block;
+        margin-left: 43rem;
+        padding-bottom: 1rem;
+        margin-top: -2.499rem;
+    }
+    
+}
+
+/* ====================== Design For table ================== */
+.thead{
+    background-color: red;
+}

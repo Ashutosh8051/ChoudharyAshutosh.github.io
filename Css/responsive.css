@@ -1,0 +1,246 @@
+@media(max-width:991px){
+    .navbar-nav .nav-item{
+        text-align: center;
+    }
+}
+
+
+
+@media(max-width:1145px){
+    .home_wrapper h2{
+        font-size: 2.8rem;
+    }
+    .home_wrapper img{
+        margin-top: 1.2rem;
+    }
+}
+@media(max-width:1006px){
+    .home_wrapper h1{
+        
+        font-size: 4.74rem;
+        padding-top: 1.4rem;
+    }
+    .home_wrapper h2{
+        font-size: 2rem;       
+        padding-top: 1.3rem;
+    }
+    .home_wrapper h3{
+        font-size: 1.8rem;
+       
+        padding-top: 1.8rem;
+        
+    }
+    .home_wrapper img{
+        margin-top: 1.2rem;
+    }
+}
+@media(max-width:767px){
+    .home_wrapper h1{
+        margin-top: 1.7rem;
+        text-align: center;
+    }
+    .home_wrapper img{
+        margin-top: -4.2rem;
+    }
+    .home_wrapper h2{
+        text-align: center;
+        padding-top: 1.3rem;
+        font-size: 2.3rem;       
+    }
+    .home_wrapper h3{
+        text-align: center;
+        font-size: 2rem;   
+    }
+
+}
+@media(max-width:419px){
+    .home_wrapper h2{
+        font-size: 2rem;
+    }
+    .home_wrapper h3{
+        font-size: 1.6rem;
+    }
+}
+@media(max-width:367px){
+    .home_wrapper h1{
+        font-size: 3.74rem;
+    }
+    .home_wrapper h2{
+        font-size: 1.7rem;
+    }
+    .home_wrapper h3{
+        font-size: 1.5rem;
+    }
+}
+
+
+/* ================== About Me Section ===================== */
+@media(max-width:1199px) {
+    .about_wrapper .box p{
+       margin-top:1rem;
+        font-size: 1.08rem;
+    }
+}
+@media(max-width:992px) {
+    .about_wrapper .box p{
+        margin-top:1rem;
+        font-size: .808rem;
+    }
+    .about_wrapper .box p #hii{
+        font-size: 1.3rem;
+
+    }
+    .about_wrapper .box span{
+        font-size: 0.989rem;
+    }
+    .back{
+        margin-top: 2.4rem;
+    }
+}
+@media(max-width:767px){
+    .about_wrapper .box p{
+        text-align: center;
+        margin-top:1.8rem;
+        font-size: 1.08rem;
+    }
+    .about_wrapper .box p #hii{
+        font-size: 1.93rem;
+
+    }
+    .skills_wrapper h5{
+        text-align: center;
+    }
+}
+@media(max-width:387px){
+    .about_wrapper .box p{
+        font-size: .908rem;
+    }
+    .about_wrapper .box span{
+        font-size: 0.889rem;
+    }
+    .about_wrapper .box p #name{
+        font-size: .989rem;
+    }
+}
+
+/* ======= Skills section ================ */
+
+@media(max-width:767px) {
+    .skills_wrapper .card{
+       margin-top: 1.68rem;
+       height: 16rem;
+      }
+      .skills_wrapper h5{
+        margin-top: 2rem;
+        margin-bottom: -2rem;
+      }
+      .skills_wrapper .row{
+        margin-top: 0px !important ;
+      }
+}
+@media(max-width:419px) {
+    .skills_wrapper .card{
+        margin-top: 1.68rem;
+        height: 12rem;
+       
+        align-items: center;
+       }
+       .skills_wrapper h5{
+        font-size: 1.345rem;
+       }
+}
+/* ============== Experience Section ======================== */
+@media(max-width:992px){
+    .experience_wrapper .card{
+        width:16rem;
+    }
+}
+@media(max-width:992px){
+    .experience_wrapper .card{
+        width:70%;
+        margin-left: 14%;
+    }
+    #excard2{
+        margin-top: 1.2rem;
+    }
+}
+@media(max-width:470px){
+    .experience_wrapper .card{
+        width:85%;
+        margin-left: 8%;
+}
+}
+
+@media(max-width:470px){
+    .experience_wrapper .card{
+        width:90%;
+        margin-left: 5%;
+    }
+}
+/* =============== Service section ============ */
+@media(max-width:1200px){
+    .service_wrapper .card{
+        width: 16rem;
+        height: 75vh;
+    }
+}
+@media(max-width:991px){
+    .service_wrapper .card{
+        width: 12rem;
+        height: 75vh;
+        margin-left: -2rem;
+
+    }
+    .service_wrapper .card i{
+        font-size: 4rem;
+        margin-bottom: -2rem;
+        height: auto;
+    }
+}
+@media(max-width:767px) {
+    .service_wrapper .card{
+        width: 90%;
+        margin-left: 1.2rem;
+        margin-bottom: 0.9rem;
+        height: auto;
+
+    }
+    .service_wrapper .card i{
+        font-size: 6.5rem;
+    }
+}
+@media(max-width:400px) {
+    .service_wrapper .card{
+        
+        margin-left: 1.2rem;
+    }
+}
+
+/* ============ Education Section =============== */
+/* ================ Education Wrapper ===================== */
+@media(max-width:415px) {
+    .education_wrapper h3{
+        font-size: 1.42rem;     
+    } 
+    
+}
+
+
+
+
+
+
+/* ============= Contact Us section =================== */
+
+
+/* ================= Project Section ================== */
+
+
+
+
+
+
+
+
+
+
